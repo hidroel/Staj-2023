@@ -4,6 +4,16 @@
 
   (paper "A4")
 
+  (title_block
+    (title "2023 Staj Projesi")
+    (date "2023-07-24")
+    (rev "1.0")
+    (company "Hidro Elektronik")
+    (comment 1 "Mehmet Emre SAYGI(2019513057@ogr.cu.edu.tr)")
+    (comment 2 "Yilmaz Can DURAN(duranyilmazcan@gmail.com)")
+    (comment 3 "Asli VEZIR(vezirasli@gmail.com)")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Operational:AD8603" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 5.08 0)
@@ -455,13 +465,13 @@
   (symbol (lib_id "Device:C") (at 179.07 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b2b731d-e003-4ef7-8cce-0a9f7538a489)
-    (property "Reference" "C2" (at 179.07 78.74 0)
+    (property "Reference" "C31" (at 179.07 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 179.07 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 180.0352 85.09 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 180.0352 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 179.07 81.28 0)
@@ -472,7 +482,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/4fc35e70-cee4-4196-a30c-3982173d08bb"
-          (reference "C2") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -481,13 +491,13 @@
   (symbol (lib_id "Device:R") (at 137.16 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15844ccd-1b2c-4895-9256-b0b05ad4ac89)
-    (property "Reference" "R7" (at 139.7 85.09 0)
+    (property "Reference" "R13" (at 139.7 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150R" (at 138.43 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 135.382 86.36 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 135.382 86.36 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 137.16 86.36 0)
@@ -498,7 +508,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/4fc35e70-cee4-4196-a30c-3982173d08bb"
-          (reference "R7") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -507,7 +517,7 @@
   (symbol (lib_id "power:GND") (at 152.4 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f27d859-d20a-4f55-ad94-fa05913cfbcc)
-    (property "Reference" "#PWR06" (at 152.4 101.6 0)
+    (property "Reference" "#PWR042" (at 152.4 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 100.33 0)
@@ -523,7 +533,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/4fc35e70-cee4-4196-a30c-3982173d08bb"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -532,7 +542,7 @@
   (symbol (lib_id "Amplifier_Operational:AD8603") (at 154.94 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 475a311b-013a-45c1-9741-8a05e394df7b)
-    (property "Reference" "U2" (at 165.1 77.0891 0)
+    (property "Reference" "U6" (at 165.1 77.0891 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AD8603" (at 165.1 79.6291 0)
@@ -552,7 +562,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/4fc35e70-cee4-4196-a30c-3982173d08bb"
-          (reference "U2") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -561,7 +571,7 @@
   (symbol (lib_id "Diode:1N914") (at 107.95 91.44 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 59288cce-c4cb-4732-a4f7-bd53af8efa06)
-    (property "Reference" "D2" (at 109.22 87.63 90)
+    (property "Reference" "D10" (at 109.22 87.63 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMBJ28A" (at 105.41 88.9 0)
@@ -584,7 +594,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/4fc35e70-cee4-4196-a30c-3982173d08bb"
-          (reference "D2") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -593,13 +603,13 @@
   (symbol (lib_id "Device:R") (at 137.16 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a074119f-7473-4b07-b80a-214d18fe71ec)
-    (property "Reference" "R8" (at 138.43 95.25 0)
+    (property "Reference" "R14" (at 138.43 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15R" (at 138.43 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 135.382 96.52 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 135.382 96.52 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 137.16 96.52 0)
@@ -610,7 +620,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/4fc35e70-cee4-4196-a30c-3982173d08bb"
-          (reference "R8") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -619,7 +629,7 @@
   (symbol (lib_id "power:+3V3") (at 152.4 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e52e771d-5155-40ce-924d-6b340f1ef0c9)
-    (property "Reference" "#PWR05" (at 152.4 73.66 0)
+    (property "Reference" "#PWR041" (at 152.4 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 152.4 64.77 0)
@@ -635,7 +645,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/4fc35e70-cee4-4196-a30c-3982173d08bb"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -644,7 +654,7 @@
   (symbol (lib_id "power:GND") (at 137.16 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0b0d27c-52a8-4c61-b04a-fbb765e034de)
-    (property "Reference" "#PWR08" (at 137.16 114.3 0)
+    (property "Reference" "#PWR040" (at 137.16 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 113.03 0)
@@ -660,7 +670,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/4fc35e70-cee4-4196-a30c-3982173d08bb"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -669,13 +679,13 @@
   (symbol (lib_id "Device:C") (at 123.19 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffdfa7a2-a4e3-4275-bf32-458fb7d70f16)
-    (property "Reference" "C1" (at 123.19 88.9 0)
+    (property "Reference" "C30" (at 123.19 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 123.19 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 124.1552 95.25 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 124.1552 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 123.19 91.44 0)
@@ -686,7 +696,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/4fc35e70-cee4-4196-a30c-3982173d08bb"
-          (reference "C1") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )

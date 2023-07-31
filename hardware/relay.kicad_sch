@@ -4,6 +4,16 @@
 
   (paper "A4")
 
+  (title_block
+    (title "2023 Staj Projesi")
+    (date "2023-07-24")
+    (rev "1.0")
+    (company "Hidro Elektronik")
+    (comment 1 "Mehmet Emre SAYGI(2019513057@ogr.cu.edu.tr)")
+    (comment 2 "Yilmaz Can DURAN(duranyilmazcan@gmail.com)")
+    (comment 3 "Asli VEZIR(vezirasli@gmail.com)")
+  )
+
   (lib_symbols
     (symbol "2023Staj:SRD-05VDC-SL-C" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "K" (at -5.0809 5.843 0)
@@ -566,7 +576,7 @@
   (symbol (lib_id "power:GND") (at 137.16 111.125 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07ff0f88-176f-44f7-a3fd-60338062e3e0)
-    (property "Reference" "#PWR02" (at 137.16 117.475 0)
+    (property "Reference" "#PWR045" (at 137.16 117.475 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 116.205 0)
@@ -582,7 +592,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/9708c89c-3f17-4bed-9aa3-84d886db37e6"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -626,7 +636,7 @@
   (symbol (lib_id "Diode:1N4148") (at 137.16 84.455 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e8e910f-ac09-4167-bf5f-4090318734cf)
-    (property "Reference" "D1" (at 137.795 81.915 90)
+    (property "Reference" "D11" (at 137.795 81.915 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4148" (at 137.795 86.995 90)
@@ -649,7 +659,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/9708c89c-3f17-4bed-9aa3-84d886db37e6"
-          (reference "D1") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -658,7 +668,7 @@
   (symbol (lib_id "power:+5V") (at 137.16 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 403b6cc2-8829-4312-92ef-010ee5cf3395)
-    (property "Reference" "#PWR01" (at 137.16 80.01 0)
+    (property "Reference" "#PWR044" (at 137.16 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 137.16 73.025 0)
@@ -674,7 +684,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/9708c89c-3f17-4bed-9aa3-84d886db37e6"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -683,13 +693,13 @@
   (symbol (lib_id "Device:R_Small") (at 116.205 100.965 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b446aed-ed12-4881-9cd6-f1980beefbb2)
-    (property "Reference" "R6" (at 116.205 99.06 90)
+    (property "Reference" "R15" (at 116.205 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4K7" (at 116.205 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 116.205 100.965 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 116.205 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.205 100.965 0)
@@ -700,7 +710,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/9708c89c-3f17-4bed-9aa3-84d886db37e6"
-          (reference "R6") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -709,13 +719,13 @@
   (symbol (lib_id "Device:R_Small") (at 122.555 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85e496da-9c7d-4d6b-a06e-d1be818b774e)
-    (property "Reference" "R5" (at 123.825 104.775 0)
+    (property "Reference" "R16" (at 123.825 104.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47K" (at 123.825 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 122.555 105.41 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 122.555 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 122.555 105.41 0)
@@ -726,7 +736,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/9708c89c-3f17-4bed-9aa3-84d886db37e6"
-          (reference "R5") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -735,7 +745,7 @@
   (symbol (lib_id "power:GND") (at 122.555 111.125 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd47694d-fcad-4061-853f-0b5c3e18d1bb)
-    (property "Reference" "#PWR03" (at 122.555 117.475 0)
+    (property "Reference" "#PWR043" (at 122.555 117.475 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 122.555 116.205 0)
@@ -751,7 +761,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/9708c89c-3f17-4bed-9aa3-84d886db37e6"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )

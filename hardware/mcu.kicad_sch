@@ -4,6 +4,16 @@
 
   (paper "A4")
 
+  (title_block
+    (title "2023 Staj Projesi")
+    (date "2023-07-24")
+    (rev "1.0")
+    (company "Hidro Elektronik")
+    (comment 1 "Mehmet Emre SAYGI(2019513057@ogr.cu.edu.tr)")
+    (comment 2 "Yilmaz Can DURAN(duranyilmazcan@gmail.com)")
+    (comment 3 "Asli VEZIR(vezirasli@gmail.com)")
+  )
+
   (lib_symbols
     (symbol "+3V3_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
@@ -2855,7 +2865,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
       (project "Mushamba"
@@ -2890,7 +2900,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "Mushamba"
@@ -2904,16 +2914,19 @@
   (symbol (lib_id "Connector:USB_B_Mini") (at 243.84 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 089fd700-328a-45ab-984c-a9906646f4e1)
-    (property "Reference" "J4" (at 240.03 74.93 0)
+    (property "Reference" "J5" (at 240.03 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_B_Mini" (at 250.19 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 247.65 85.09 0)
+    (property "Footprint" "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal" (at 247.65 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 247.65 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digikey" "732-2109-2-ND" (at 243.84 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 00a69fa9-4ee1-4d6e-afaa-f61b9814fbdc))
@@ -2925,7 +2938,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "J4") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -2959,7 +2972,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "C9") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
       (project "Mushamba"
@@ -2998,7 +3011,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "C8") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
       (project "Mushamba"
@@ -3012,7 +3025,7 @@
   (symbol (lib_id "power:+5V") (at 269.24 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2253a93d-b826-49ef-8e9d-9e21d4fcda4e)
-    (property "Reference" "#PWR027" (at 269.24 36.83 0)
+    (property "Reference" "#PWR034" (at 269.24 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 269.24 27.94 0)
@@ -3028,7 +3041,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -3062,7 +3075,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "C15") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -3071,7 +3084,7 @@
   (symbol (lib_name "+3V3_2") (lib_id "power:+3V3") (at 246.38 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b774388-82cb-4f2a-91ab-dcb87ed227c9)
-    (property "Reference" "#PWR026" (at 246.38 36.83 0)
+    (property "Reference" "#PWR032" (at 246.38 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 246.38 27.94 0)
@@ -3087,7 +3100,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -3121,7 +3134,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "C19") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
       (project "Mushamba"
@@ -3156,7 +3169,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
       (project "Mushamba"
@@ -3195,7 +3208,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "C7") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
       (project "kanal-kapak-hardware"
@@ -3234,7 +3247,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "C16") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -3267,7 +3280,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "J3") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
       (project "Mushamba"
@@ -3302,7 +3315,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "Mushamba"
@@ -3355,16 +3368,19 @@
   (symbol (lib_id "Connector_Generic:Conn_02x07_Odd_Even") (at 256.54 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e984cca-a255-436a-9fab-fc280b03bbe4)
-    (property "Reference" "J2" (at 257.81 33.02 0)
+    (property "Reference" "J6" (at 257.81 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EXT" (at 257.81 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 256.54 43.18 0)
+    (property "Footprint" "2023Staj:CONN14_1421621_WRE" (at 256.54 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 256.54 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digikey" "732-5397-ND" (at 256.54 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3c87b1cf-849e-4eea-b691-269b13db3103))
@@ -3384,7 +3400,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "J2") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -3418,7 +3434,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "R3") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
       (project "Mushamba"
@@ -3457,7 +3473,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "R11") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -3491,7 +3507,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "C12") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -3525,7 +3541,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "C6") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -3559,7 +3575,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "D6") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -3568,7 +3584,7 @@
   (symbol (lib_name "GND_2") (lib_id "power:GND") (at 269.24 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 691e35dc-7fc1-409a-a3ed-263d1bc53fd1)
-    (property "Reference" "#PWR029" (at 269.24 63.5 0)
+    (property "Reference" "#PWR035" (at 269.24 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 269.24 62.23 0)
@@ -3584,7 +3600,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -3614,7 +3630,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "Mushamba"
@@ -3649,7 +3665,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
       (project "Mushamba"
@@ -3688,7 +3704,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "R9") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
       (project "Mushamba"
@@ -3727,7 +3743,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "D7") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -3761,7 +3777,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "R1") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
       (project "Mushamba"
@@ -3800,7 +3816,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "R4") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
       (project "kanal-kapak-hardware"
@@ -3835,7 +3851,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
       (project "Mushamba"
@@ -3870,7 +3886,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3938,7 +3954,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "C5") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -3968,7 +3984,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "Mushamba"
@@ -4003,7 +4019,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
       (project "Mushamba"
@@ -4038,7 +4054,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "damlama"
@@ -4077,7 +4093,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "C3") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -4214,7 +4230,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "Mushamba"
@@ -4253,7 +4269,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "C4") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -4283,7 +4299,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "Mushamba"
@@ -4318,7 +4334,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "Mushamba"
@@ -4353,7 +4369,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "damlama"
@@ -4438,7 +4454,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "U1") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -4468,7 +4484,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "Mushamba"
@@ -4507,7 +4523,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "R2") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
       (project "Mushamba"
@@ -4546,7 +4562,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "C13") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -4576,7 +4592,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "damlama"
@@ -4650,7 +4666,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "kanal-kapak-hardware"
@@ -4664,7 +4680,7 @@
   (symbol (lib_name "GND_2") (lib_id "power:GND") (at 246.38 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6243811-2ea5-450a-9dbf-c3a4384a4b61)
-    (property "Reference" "#PWR028" (at 246.38 63.5 0)
+    (property "Reference" "#PWR033" (at 246.38 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 62.23 0)
@@ -4680,7 +4696,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -4714,7 +4730,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "R10") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4748,7 +4764,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "C11") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -4778,7 +4794,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
       (project "Mushamba"
@@ -4813,7 +4829,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -4843,7 +4859,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "damlama"
@@ -4882,7 +4898,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "D5") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -4916,7 +4932,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "R8") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "Mushamba"
@@ -4951,7 +4967,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG05") (unit 1)
         )
       )
       (project "damlama"
@@ -4986,7 +5002,7 @@
       )
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/ad5bb2f7-d732-4006-85f8-ba23072c0f8e"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "damlama"

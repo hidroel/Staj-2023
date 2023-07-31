@@ -4,6 +4,16 @@
 
   (paper "A4")
 
+  (title_block
+    (title "2023 Staj Projesi")
+    (date "2023-07-24")
+    (rev "1.0")
+    (company "Hidro Elektronik")
+    (comment 1 "Mehmet Emre SAYGI(2019513057@ogr.cu.edu.tr)")
+    (comment 2 "Yilmaz Can DURAN(duranyilmazcan@gmail.com)")
+    (comment 3 "Asli VEZIR(vezirasli@gmail.com)")
+  )
+
   (lib_symbols
     (symbol "2023Staj:SIM800L-CORE" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -7.62 8.89 0)
@@ -322,7 +332,7 @@
   (symbol (lib_id "power:+3V8") (at 91.44 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3357aa65-d733-4ef7-b30b-986c077bd4bb)
-    (property "Reference" "#PWR023" (at 91.44 93.98 0)
+    (property "Reference" "#PWR036" (at 91.44 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V8" (at 91.44 86.36 0)
@@ -338,7 +348,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/013a8548-f59f-4471-82ab-be6805a2738f"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -347,13 +357,13 @@
   (symbol (lib_id "Device:C") (at 91.44 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 435bd890-875a-4eec-b69b-7da2cd2d6e29)
-    (property "Reference" "C10" (at 92.71 96.52 0)
+    (property "Reference" "C29" (at 92.71 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 93.98 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 92.4052 102.87 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 92.4052 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 91.44 99.06 0)
@@ -364,7 +374,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/013a8548-f59f-4471-82ab-be6805a2738f"
-          (reference "C10") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -373,13 +383,13 @@
   (symbol (lib_id "Device:C") (at 83.82 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4eec666b-65fd-4688-b129-caf34cf5fcda)
-    (property "Reference" "C14" (at 85.09 96.52 0)
+    (property "Reference" "C28" (at 85.09 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 76.2 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 84.7852 102.87 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 84.7852 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 83.82 99.06 0)
@@ -390,7 +400,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/013a8548-f59f-4471-82ab-be6805a2738f"
-          (reference "C14") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -399,7 +409,7 @@
   (symbol (lib_id "2023Staj:SIM800L-CORE") (at 191.77 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c16b2fe-310a-4ed6-a0fc-0be0a2c388b7)
-    (property "Reference" "U3" (at 184.15 87.63 0)
+    (property "Reference" "U5" (at 184.15 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SIM800L-CORE" (at 195.58 107.95 0)
@@ -426,7 +436,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/013a8548-f59f-4471-82ab-be6805a2738f"
-          (reference "U3") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -435,7 +445,7 @@
   (symbol (lib_id "power:GND") (at 91.44 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f175b55-75cd-4176-9737-4810a19d7c85)
-    (property "Reference" "#PWR020" (at 91.44 113.03 0)
+    (property "Reference" "#PWR037" (at 91.44 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 111.76 0)
@@ -451,7 +461,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/013a8548-f59f-4471-82ab-be6805a2738f"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )

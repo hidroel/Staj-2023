@@ -4,6 +4,16 @@
 
   (paper "A4")
 
+  (title_block
+    (title "2023 Staj Projesi")
+    (date "2023-07-24")
+    (rev "1.0")
+    (company "Hidro Elektronik")
+    (comment 1 "Mehmet Emre SAYGI(2019513057@ogr.cu.edu.tr)")
+    (comment 2 "Yilmaz Can DURAN(duranyilmazcan@gmail.com)")
+    (comment 3 "Asli VEZIR(vezirasli@gmail.com)")
+  )
+
   (lib_symbols
     (symbol "2023Staj:SSD1306" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "Brd" (at 0 -3.81 0)
@@ -206,7 +216,7 @@
   (symbol (lib_id "power:+5V") (at 144.78 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85039629-f0e9-44df-bc3e-2b070388285a)
-    (property "Reference" "#PWR025" (at 144.78 73.66 0)
+    (property "Reference" "#PWR038" (at 144.78 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 144.78 64.77 0)
@@ -222,7 +232,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/9df18327-ad01-4780-8291-2b0f280e8588"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -231,7 +241,7 @@
   (symbol (lib_id "power:GND") (at 148.59 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ead68f87-9830-4ea5-b6e0-65fe0a006a5d)
-    (property "Reference" "#PWR024" (at 148.59 100.33 0)
+    (property "Reference" "#PWR039" (at 148.59 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 99.06 0)
@@ -247,7 +257,7 @@
     (instances
       (project "2023-staj-projesi"
         (path "/069db7ad-35cd-4aa8-8111-e026f632a4df/9df18327-ad01-4780-8291-2b0f280e8588"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
